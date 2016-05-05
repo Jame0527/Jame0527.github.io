@@ -1,0 +1,88 @@
+@import "../../lib/fragment/yo-header";
+
+.search{
+  @include flexbox(flex);
+  @include flex-direction(column);
+  height:100%;
+  @include yo-header(
+      $bgcolor: #04dbe6 !important,
+      $color: map-get($base, color),
+      $item-ico-color: map-get($base, #fff),
+      $font-size:.15rem
+  ) {
+    border:none;
+    color:#fff;
+    }
+  section{
+    @include flex(1);
+
+    width:100%;
+    background: #f0eff4;
+    >div{
+    div{
+        &:nth-child(1){
+        height:.6rem;
+        line-height: .6rem;
+        @include box-sizing();
+        background:#fff;
+        @include border(.08rem 0 .08rem 0,#f0eff4);
+        padding-left: .43rem;
+        position: relative;
+        font-size: .12rem;
+        p{
+          width:.21rem;
+          height:.21rem;
+          position: absolute;
+          top:.20rem;
+          left:.12rem;
+          line-height: 0;
+          img{
+            width:100%;
+            height:100%;
+          }
+        }
+      }
+      &:not(:nth-child(1)){
+        height:.45rem;
+        @include box-sizing();
+        background:#fff;
+
+        padding-left: .43rem;
+        position: relative;
+        p{
+          &:nth-child(1){
+            width:.21rem;
+            height:.21rem;
+            position: absolute;
+            top:.12rem;
+            left:.12rem;
+            line-height: 0;
+            img{
+              width:100%;
+              height:100%;
+            }
+          }
+          &:nth-child(2){
+            line-height: .45rem;
+            font-size: .12rem;
+            @include box-sizing();
+            @include border(0 0 1px 0,#f0eff4);
+
+          }
+          &:nth-child(3){
+            width:.29rem;
+            height:.16rem;
+            position: absolute;
+            top:.12rem;
+            right:.33rem;
+            img{
+              width:100%;
+              height:100%;
+            }
+          }
+        }
+      }
+    }
+    }
+  }
+}

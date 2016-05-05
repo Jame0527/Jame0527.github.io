@@ -1,0 +1,55 @@
+@font-face {
+	font-family: yofont;
+	src: url("/course-Xue/img/iconfont.woff") format("woff"), url("/course-Xue/img/iconfont.ttf") format("truetype");
+}
+@font-face {
+	font-family: yofont;
+	src: url("/course-Xue/img/icon/iconfont.woff") format("woff"), url("/course-Xue/img/icon/iconfont.ttf") format("truetype");
+}
+body {
+	@include flexbox(flex);
+	@include flex-direction(column);
+	background: #fff !important;
+	
+	.index-body{
+		@include flex(1);
+		@include flexbox(flex);
+		width:100%;
+		position:relative;
+		@include flex-direction(column);
+	}
+	.index-footer {
+		height: .48rem;
+		@include border(1px 0 0 0, #ced6cf);
+		background: #fff !important;
+		ul {
+			width: 100%;
+			height: 100%;
+			@include flexbox(flex);
+			li {
+				@include flex(1);
+				@include align-items(center);
+				@include justify-content(center);
+				b, i {
+					display: block;
+					width: 100%;
+					text-align: center;
+					color: #d6d6d6;
+				}
+				&.active b, &.active i {
+					color: #4bc7c7;
+				}
+				i {
+					font-size: .18rem;
+					height: .23rem;
+					padding-top: .02rem;
+				}
+				b {
+					padding-top: .03rem;
+					font-weight: normal;
+					font-size: .12rem;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+<div class="my">
+  <section spa-widget="scroll">
+    <div>
+      <div>
+        <i id="client">我的</i>
+        <i><img src="/course-Xue/img/pic/my.png" /></i>
+        <i action-type="tap.swicth" data-tag="login">登录/注册</i>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/my1.png" /></p>
+        <p>通讯录</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/my2.png" /></p>
+        <p>增值服务</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/my3.png" /></p>
+        <p>应用推荐</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/my4.png" /></p>
+        <p>联系客服</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+      <P class="empty"></p>
+      <div>
+        <p><img src="/course-Xue/img/pic/my6.png" /></p>
+        <p>我关注的社区</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/my5.png" /></p>
+        <p>我关注的专家</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+      <p class="empty"></p>
+      <div>
+        <p><img src="/course-Xue/img/pic/my7.png" /></p>
+        <p>设置</p>
+        <p><img src="/course-Xue/img/pic/my9.png" /></p>
+      </div>
+    <div>
+  </section>
+</div>

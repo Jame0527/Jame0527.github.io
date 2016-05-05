@@ -1,0 +1,23 @@
+<div class="index-body">
+
+</div>
+<footer class="index-footer">
+	 <ul>
+        <li class="active" action-type="tap.switch" data-tag="home">
+          <i class="yo-ico">&#xe606;</i>
+          <b>首页</b>
+        </li>
+        <li action-type="tap.switch" data-tag="communtiy">
+          <i class="yo-ico">&#xe6fe;</i>
+          <b>社区</b>
+        </li>
+        <li action-type="tap.switch" data-tag="search">
+          <i class="yo-ico">&#xe604;</i>
+          <b>发现</b>
+        </li>
+        <li action-type="tap.switch" data-tag="my">
+          <i class="yo-ico">&#xe62c;</i>
+          <b>我的</b>
+        </li>
+      </ul>
+</footer>

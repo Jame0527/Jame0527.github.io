@@ -1,0 +1,30 @@
+<div class="search">
+  <header>
+    <h2 class="yo-header">发现</h2>
+  </header>
+  <section spa-widget="scroll">
+    <div>
+      <div>
+        好友圈
+        <p><img src="/course-Xue/img/pic/search1.png" /></p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/search4.png" /></p>
+        <p>家长通知</p>
+        <p><img src="/course-Xue/img/pic/news.png" /></p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/search5.png" /></p>
+        <p>作业预警</p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/search3.png" /></p>
+        <p>作业预警</p>
+      </div>
+      <div>
+        <p><img src="/course-Xue/img/pic/search2.png" /></p>
+        <p>作业预警</p>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,171 @@
+@import "../../lib/fragment/yo-header";
+
+
+
+
+
+
+.login{
+  @include flexbox(flex);
+  @include flex-direction(column);
+  height:100%;
+  @include yo-header(
+      $bgcolor: #04dbe6 !important,
+      $color: map-get($base, color),
+      $item-ico-color: map-get($base, #fff),
+      $font-size:.15rem
+  ) {
+    color:#fff;
+    font-size: .15rem;
+    border-bottom: none;
+    line-height: .44rem;
+    .affirm{
+      font-size: .12rem;
+    }
+    .regret{
+      // line-height: .44rem;
+      // position: relative;
+      @include justify-content(center);
+      // @include align-items(center);
+      img{
+        // position: absolute;
+        // top:.14rem;
+        // left:.09rem;
+        width:.15rem;
+        height:.15rem;
+      }
+    }
+  }
+  section{
+    @include flex(1);
+    width:100%;
+    background: #f0eff4;
+    >div{
+      form{
+        height:.90rem;
+        @include box-sizing();
+        position:relative;
+        width:100%;
+        p{
+          width:.09rem;
+          height:.45rem;
+          background: #fff;
+          position: absolute;
+          top:0;
+          left:0;
+        }
+        input{
+          padding-left: .09rem;
+          width:100%;
+          height:.45rem;
+          border: none;
+          &:nth-child(1){
+            padding-left: .09rem;
+            @include box-sizing();
+            border-bottom: 1px solid #e8e8e8;
+          }
+        }
+        img{
+          display: block;
+          position: absolute;
+          top:.58rem;
+          right:.12rem;
+          width:.36rem;
+          height:.19rem;
+
+        }
+      }
+      .btn{
+        height:.63rem;
+        @include box-sizing();
+        padding:.09rem .12rem;
+        button{
+          border: none;
+          height:100%;
+          width:100%;
+          background: #4bc7c7;
+          color:#fff;
+        }
+      }
+      .inform{
+        @include box-sizing();
+        @include flexbox(flex);
+        @include justify-content(space-between);
+        height:.12rem;
+        padding:0rem .12rem;
+        i{
+          color: #4bc7c7;
+          font-size:.12rem;
+          line-height: .12rem;
+        }
+
+      }
+      .empty{
+        height:2.35rem;
+      }
+      h4{
+        height:.27rem;
+        line-height: .27rem;
+        font-size: .12rem;
+        text-align: center;
+        font-weight: nomal;
+      }
+      .footer{
+        height: .88rem;
+        @include box-sizing();
+        padding:0 .21rem;
+      ul {
+  			width: 100%;
+  			height: 100%;
+  			@include flexbox(flex);
+  			li {
+  				@include flex(1);
+  				@include align-items(center);
+  				@include justify-content(center);
+  				b, i {
+  					display: block;
+  					width: 100%;
+  					text-align: center;
+  					color: #d6d6d6;
+  				}
+          i{
+            height:.46rem;
+            line-height: .46rem;
+          }
+          b{
+            height:.34rem;
+            line-height: .34rem;
+          }
+          &:nth-child(1){
+            i{
+              img{
+                width:.29rem;
+                height:.24rem
+              }
+            }
+            b{}
+          }
+          &:nth-child(2){
+            i{
+
+              img{
+                height:.44rem;
+                width:.26rem;
+              }
+            }
+            b{}
+          }
+          &:nth-child(3){
+            i{
+              img{
+                width:.31rem;
+                height:.27rem;
+              }
+            }
+          }
+  			}
+  		}
+    }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ret": true,
+  "errorCode": 0,
+  "errorMsg": "",
+  "data": [
+    {
+      "title" : "平时情绪风暴，找回爱的能力",
+      "img": "/course-Xue/img/pic/hot2.png",
+      "img2": "/course-Xue/img/pic/content2.png"
+    },{
+      "title" : "好习惯不是靠培养出来的！",
+      "img": "/course-Xue/img/pic/hot3.png",
+      "img2": "/course-Xue/img/pic/content1.png"
+    },{
+      "title" : "不阅读的孩子是学习上潜在的差生但好似都会死",
+      "img": "/course-Xue/img/pic/hot.png",
+      "wordwidth":"yes",
+      "img2": "/course-Xue/img/pic/content3.png"
+    },{
+      "title" : "不是我们教育孩子而是，孩子教育了我们",
+      "img": "/course-Xue/img/pic/hot.png",
+      "wordwidth":"yes",
+      "img2": "/course-Xue/img/pic/content4.png"
+    },{
+      "title" : "请客服你的“家长欲”",
+      "img": "/course-Xue/img/pic/hot.png",
+      "img2": "/course-Xue/img/pic/content5.png"
+    }
+  ]
+}

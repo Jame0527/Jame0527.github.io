@@ -1,0 +1,37 @@
+{
+  "ret": true,
+  "errorCode": 0,
+  "errorMsg": "",
+  "data": [
+    {
+      "title" : "angular数据",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    },{
+      "title" : "angular数据",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    },{
+      "title" : "angular数据",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    },{
+      "title" : "angular数据",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    }
+  ]
+}

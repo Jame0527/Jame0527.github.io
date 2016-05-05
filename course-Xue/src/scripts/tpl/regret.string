@@ -1,0 +1,13 @@
+<div class="regret">
+  <header>
+      注册
+      <img src="/course-Xue/img/pic/my9.png" action-type="tap.login" />
+  </header>
+  <section>
+    <input type="text" placeholder="手机号"  maxlength="11" />
+    <input type="text" placeholder="验证码" />
+    <p>获取验证码</p>
+    <div><button type="button">立即注册</button></div>
+    <div class="deal">注册代表同意《用户服务协议》</div>
+  </section>
+</div>

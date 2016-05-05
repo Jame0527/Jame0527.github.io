@@ -1,0 +1,102 @@
+	<!-- <div class="home"> -->
+	<header>
+		首页
+	</header>
+	<section id="homeScroll" spa-widget="scroll" data-scroll-id="homeScroll">
+		<div>
+			<div class="swiper-container" id="home-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="/course-Xue/img/pic/secslide1.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="/course-Xue/img/pic/secslide2.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="/course-Xue/img/pic/secslide3.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="/course-Xue/img/pic/secslide4.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="/course-Xue/img/pic/secslide5.jpg" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<i><img src="/course-Xue/img/pic/homrwork.png"/></i>
+						<b>课程追踪</b>
+					</li>
+					<li>
+						<i><img src="/course-Xue/img/pic/class.png"/></i>
+						<b>社区</b>
+					</li>
+					<li>
+						<i><img src="/course-Xue/img/pic/test.png"/></i>
+						<b>发现</b>
+					</li>
+					<li>
+						<i><img src="/course-Xue/img/pic/expert.png"/></i>
+						<b>我的</b>
+					</li>
+				</ul>
+			</nav>
+			<div class="reader body-reader">
+					<div id="reader">
+						<p>天天享读</p>
+						<p class="right">
+							<i>查看全部</i>
+							<b><img src="/course-Xue/img/pic/indexin.png"/></b>
+						</p>
+					</div>
+			</div>
+			<div ms-class-content="true" ms-repeat="homelist">
+				<div>
+					<p ms-html="el.title" ms-class-wordwidth="el.wordwidth"></p>
+					<p>
+						<i><img ms-src="el.img" /></i>
+						<b>家庭教育</b>
+					</p>
+				</div>
+				<div>
+					<img ms-src="el.img2"/>
+				</div>
+			</div>
+			<div class="contenthot">
+				<div>农村留守儿童 : 伤害反被伤害的</div>
+				<div>
+					<ul>
+						<li><img src="/course-Xue/img/pic/content6.png" /></li>
+						<li class="empty"></li>
+						<li><img src="/course-Xue/img/pic/content7.png" /></li>
+						<li  class="empty"></li>
+						<li><img src="/course-Xue/img/pic/content8.png" /></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><img src="/course-Xue/img/pic/hot.png" /></li>
+						<li><span>李林老师</span><span>56赞</span><span>1小时前</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="contenthot2">
+				<div>马上定制祝福，送家人表心意</div>
+				<div>
+						<img src="/course-Xue/img/pic/content9.png" style="with:100%;height:100%;" />
+				</div>
+				<div>
+					<ul>
+						<li><img src="/course-Xue/img/pic/hot.png"</li>
+						<li>阿里年货节</li>
+					</ul>
+				</div>
+			</div>
+			<div class="reader">
+				<p>推荐专家</p>
+			</div>
+			<div class="sectionbtm">
+				<p><img src="/course-Xue/img/pic/content10.png" /></p>
+				<dl>
+					<dt>罗永浩</dt>
+					<dd>锤子科技创始人。曾先后创办过牛博网、老罗英语培训学校，并著有《我的奋斗》一书</dd>
+				</dl>
+
+			</div>
+		</div>
+	</section>
+
+<!-- </div> -->

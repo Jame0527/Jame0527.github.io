@@ -1,0 +1,44 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+/*@font-face {
+  font-family: yofont;
+  src: url("/course-Xue/img/iconfont/iconfont.woff") format("woff"), url("/course-Xue/img/iconfont/iconfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/course-Xue/img/icon/iconfont/iconfont.woff") format("woff"), url("/course-Xue/img/icon/iconfont/iconfont.ttf") format("truetype");
+}*/
+body {
+	background-color: #fff !important;
+	position: relative;
+}
+
+%body-reader {
+	height:.39rem;
+
+	line-height: .39rem;
+
+	background:#f0eff4;
+	// position: relative;
+	div{
+		background:#f0eff4;
+		@include box-sizing();
+		padding:0 .12rem;
+		@include flexbox(flex);
+
+		p{
+			@include flex(1)
+			width:100%;
+			color:#47c7c7;
+			font-size: .1rem;
+		}
+		.right{
+			text-align: right;
+			img{
+				height:.09rem;
+				width:.05rem;
+			}
+		}
+	}
+}

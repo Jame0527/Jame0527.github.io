@@ -1,0 +1,119 @@
+<div class="commoun" ng-app="myapp">
+  <div class="yo-header" yo-name="communi">
+      <h2 class="title">社区</h2>
+      <span class="regret yo-ico">&#xf07d;</span>
+      <span class="affirm">&#xe67b;</span>
+  </div>
+  <nav>
+    <ul id="com_nav">
+      <li class="active" action-type="tap.slide">关注</li>
+      <li action-type="tap.slide">推荐</li>
+      <li action-type="tap.slide">话题</li>
+    </ul>
+  </nav>
+  <div class="com-search">
+    <p></p>
+    <input type="text" placeholder="搜索用户和内容" />
+  </div>
+  <!-- <section> -->
+    <div class="swiper-container"  id="communSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide1" id="slide1" ng-controller="comgetData">
+          <div>
+            <!-- <div class="head">
+                <img src="/couse-App/img/arrow.png" />
+                <span>下拉刷新...</span>
+            </div> -->
+          <!-- <div ng-repeat="x in data" ng-class="{content:boolean}" ng-hide="boolean">
+            <div  ng-class="{content1:boolean}">
+              <p><img ng-src="x.img" /></p>
+              <p class="yo-ico">&#xe617;</p>
+              <ul>
+                <li ng-bind="x.title"></li>
+                <li ng-bind="x.title2"></li>
+              </ul>
+            </div>
+            <div  ng-class="{content2:boolean}">
+              <ul>
+                <li><img ng-src="x.img2" /></li>
+                <p ng-class="{middle:boolean}"></p>
+                <li><img ng-src="x.img3" /></li>
+                <p ng-class="{middle:boolean}"></p>
+                <li><img ng-src="x.img4" /></li>
+              </ul>
+            </div>
+            <div  ng-class="{content3:boolean}">
+              <i>01-28</i>
+              <b class="empty1"></b>
+              <i>10:20</i>
+              <b class="empty2"></b>
+              <i><span>&#xe631;</span>25</i>
+              <b class="empty"></b>
+              <i><span>&#xe647;</span>30</i>
+              <b class="empty"></b>
+              <i><span>&#xe6fe;</span>45</i>
+            </div>
+          </div> -->
+          <!-- <div class="foot">
+              <img src="/couse-App/img/arrow.png" />
+              <span>上拉加载更多...</span>
+          </div> -->
+        </div>
+        </div>
+        <div class="swiper-slide slide1" id="slide2">
+          <div>
+              <div class="head">
+                  <img src="/couse-App/img/arrow.png" />
+                  <span>下拉刷新...</span>
+              </div>
+            <div ms-repeat="communlist" ms-class-content="true">
+              <div ms- ms-class-content1="true">
+                <p><img ms-src="el.img" /></p>
+                <p class="yo-ico">&#xe617;</p>
+                <ul>
+                  <li ms-html="el.title"></li>
+                  <li ms-html="el.title2"></li>
+                </ul>
+              </div>
+              <div  ms-class-content2="true">
+                <ul>
+                  <li><img ms-src="el.img2" /></li>
+                  <p ms-class-middle="true"></p>
+                  <li><img ms-src="el.img3" /></li>
+                  <p ms-class-middle="true"></p>
+                  <li><img ms-src="el.img4" /></li>
+                </ul>
+              </div>
+              <div  ms-class-content3="true">
+                <i>01-28</i>
+                <b class="empty1"></b>
+                <i>10:20</i>
+                <b class="empty2"></b>
+                <i><span>&#xe631;</span>25</i>
+                <b class="empty"></b>
+                <i><span>&#xe647;</span>30</i>
+                <b class="empty"></b>
+                <i><span>&#xe6fe;</span>45</i>
+              </div>
+            </div>
+            <div class="foot">
+                <img src="/couse-App/img/arrow.png" />
+                <span>上拉加载更多...</span>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide slide3"  id="slide3">
+        <div>
+          <div ms-class-content4="true" ms-repeat="commundata">
+            <p><img ms-src="el.img" /></p>
+            <div class="btn" action-type="tap.input">关注</div>
+            <ul>
+              <li ms-html="el.title"></li>
+              <li ms-html="el.title2"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </section> -->
+</div>

@@ -1,0 +1,13 @@
+<div class="swiper-container" id="guide-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/course-Xue/img/pic/slide1.png" /></div>
+        <div class="swiper-slide"><img src="/course-Xue/img/pic/slide2.jpg" /></div>
+        <div class="swiper-slide"><img src="/course-Xue/img/pic/slide3.jpg" /></div>
+        <div class="swiper-slide slide4" >
+          <img src="/course-Xue/img/pic/slide4.jpg" />
+          <p class="once">
+            <img src="/course-Xue/img/pic/bg1.png" action-type="goto.index"/>
+          </p>
+        </div>
+    </div>
+</div>

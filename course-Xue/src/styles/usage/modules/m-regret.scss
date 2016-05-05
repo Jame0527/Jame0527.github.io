@@ -1,0 +1,78 @@
+@import "../../lib/fragment/yo-header";
+
+
+.regret{
+  @include flexbox(flex);
+  @include flex-direction(column);
+  height:100%;
+  header{
+    height:.44rem;
+    background:#04dbe6;
+    line-height: .44rem;
+    text-align: center;
+    position: relative;
+    font-size: .15rem;
+    color: #fff;
+    img{
+      width:.10rem;
+      height:.19rem;
+      position: absolute;
+      top:.15rem;
+      left:.10rem;
+    }
+  }
+  section{
+    @include flex(1);
+    width:100%;
+    background: #f0eff4;
+    position: relative;
+    input{
+      background: #fff;
+      border:none;
+      width:100%;
+      padding-left:.13rem;
+      &:nth-child(1){
+        height:.59rem;
+        @include box-sizing();
+        border-top: .09rem solid #f0eff4;
+        border-bottom: .06rem solid #f0eff4;
+
+      }
+      &:nth-child(2){
+        height:.45rem;
+      }
+    }
+    >p{
+      position: absolute;
+      width:.85rem;
+      height:.23rem;
+      line-height: .23rem;
+      text-align: center;
+      top:.19rem;
+      right:.10rem;
+      background:#04dbe6;
+      color:#fff;
+      border-radius: 3px;
+      font-size: 10px;
+    }
+    div{
+      height:.54rem;
+      @include box-sizing();
+      padding: .12rem .09rem 0 .09rem;
+      button{
+          width:100%;
+          height:100%;
+          border: none;
+          color: #fff;
+          background: #04dbe6;
+      }
+    }
+    .deal{
+      height:.28rem;
+      line-height: .28rem;
+      text-align: center;
+      font-size: 10px;
+      color: #777777;
+    }
+  }
+}

@@ -1,0 +1,256 @@
+@import "../core/swiper-3.3.1.min.css";
+
+// .home{
+// 	width:100%;
+// 	height:100%;
+// 	@include flexbox(flex);
+// 	@include flex-direction(column);
+	// position: relative;
+	header{
+		height:.44rem;
+		background: #52eaf3;
+		line-height: .44rem;
+		text-align: center;
+		font-size: .15rem;
+		color:#fff;
+	}
+	section{
+		@include flex(1);
+		width:100%;
+		overflow: hidden;
+		position: relative;
+		>div{
+			.swiper-container{
+				img{
+					width:100%;
+				}
+				.swiper-pagination{
+					span{
+						background:#fff;
+					}
+				}
+			}
+			nav{
+				height:.77rem;
+				@include box-sizing();
+				ul{
+					@include flexbox(flex);
+					height:100%;
+					li{
+						@include flex(1);
+						@include justify-content(center);
+						@include align-items(center);
+						@include box-sizing();
+						padding-top:.12rem;
+						width:100%;
+						i,b{
+							display: block;
+							text-align: center;
+							width:100%;
+
+							img{
+								width:.4rem;
+								height:.4rem;
+							}
+						}
+						b{
+							height:.12rem;
+							font-size:.12rem;
+							color:#65646b;
+							font-weight: normal;
+						}
+					}
+				}
+			}
+			.reader{
+				@extend %body-reader;
+			}
+			.content{
+				@include box-sizing();
+				height:.69rem;
+				padding:0 .12rem;
+				position: relative;
+				div:nth-child(1){
+					width:100%;
+					height:100%;
+					@include box-sizing();
+
+					@include border(0 0 1px 0,#f8f8f8);
+					p:nth-child(1){
+						font-size: .12rem;
+						line-height:.42rem;
+						height:.47rem;
+						font-weight: 500;
+						&.wordwidth{
+							width:1.90rem;
+							@include box-sizing();
+							padding-top: .13rem;
+							font-size: .125rem;
+							line-height: .13rem;
+
+						}
+					}
+					p:nth-child(2){
+						height:.13rem;
+						line-height: 0;
+						i{
+							img{
+								width:.23rem;
+							}
+						}
+						b{
+							display: inline-block;
+							font-weight: normal;
+							font-size: .16rem;
+							@include transform(scale(.5));
+						}
+					}
+
+				}
+				div:nth-child(2){
+					height:.38rem;
+					width:.68rem;
+					position: absolute;
+					top:.14rem;
+					right:.21rem;
+					img{
+						width:100%;
+						height:100%;
+					}
+				}
+
+			}
+			.contenthot{
+				@include flexbox(flex);
+				@include flex-direction(column);
+				// overflow: hidden;
+				height:1.35rem;
+				@include box-sizing();
+				 padding:0 .12rem;
+				div:not(:nth-child(2)){
+					height:.3rem;
+					line-height:.3rem;
+					font-size: .12rem;
+				}
+				div:nth-child(2){
+					@include flex(1);
+					width:100%;
+					ul{
+						@include flexbox(flex);
+						.empty{
+							width:.04rem;
+						}
+						li:not(.empty){
+							@include flex();
+							width:100%;
+							img{
+								width:100%;
+								height:100%;
+							}
+						}
+					}
+				}
+				div:nth-child(3){
+					ul{
+						@include flexbox(flex);
+						@include border(0 0 1px 0,#e9e9e9);
+
+						li:nth-child(1){
+							width:.26rem;
+							img{
+								width:.23rem;
+								height:.12rem;
+							}
+						}
+						li:not(:nth-child(1)){
+							font-size: .15rem;
+							@include transform-origin(0 50%);
+							 @include transform(scale(.5));
+							 span{
+								 margin-right:.07rem;
+							 }
+						}
+					}
+				}
+			}
+			.contenthot2{
+				@include flexbox(flex);
+				@include flex-direction(column);
+				@include box-sizing();
+				 padding:0 .12rem;
+				height:1.81rem;
+				div:not(:nth-child(2)){
+					height:.32rem;
+					line-height:.32rem;
+					font-size: .12rem;
+				}
+				div:nth-child(2){
+					@include flex();
+					width:100%;
+					img{
+						width:100%;
+						height:100%;
+					}
+				}
+				div:nth-child(3){
+					ul{
+						@include flexbox(flex);
+						li:nth-child(1){
+							width:.26rem;
+							img{
+								width:.23rem;
+								height:.12rem;
+							}
+						}
+						li:not(:nth-child(1)){
+							font-size: .15rem;
+							@include transform-origin(0 50%);
+							 @include transform(scale(.5));
+							 span{
+								 margin-right:.07rem;
+							 }
+						}
+					}
+				}
+			}
+			.sectionbtm{
+				height:.68rem;
+				@include box-sizing();
+				padding:0 .12rem;
+				position: relative;
+				padding-bottom: .11rem;
+				p{
+					position: absolute;
+					top:.06rem;
+					left: .12rem;
+					img{
+						width:.55rem;
+						height:.55rem;
+					}
+				}
+				dl{
+					@include box-sizing();
+					padding-left: .66rem;
+
+					dt{
+						height:.32rem;
+						font-size: 12px;
+						line-height: .32rem;
+					}
+					dd{
+						font-size: 10px;
+						color:#777;
+					}
+				}
+			}
+		}
+	}
+// }
+
+body > .body-reader {
+	position: fixed;
+	z-index: 10000;
+	@extend %body-reader;
+	width: 100%;
+	top: .44rem;
+}

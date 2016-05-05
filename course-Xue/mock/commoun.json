@@ -1,0 +1,69 @@
+{
+  "ret": true,
+  "errorCode": 0,
+  "errorMsg": "",
+  "data": [
+    {
+      "title" : "无主之路",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    },{
+      "title" : "无主之路",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    },{
+      "title" : "无主之路",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    },{
+      "title" : "无主之路",
+      "title2" : "<i>#话题集#</i>妈妈是什么？爸爸是什么？",
+      "img": "/course-Xue/img/pic/comnun1.png",
+      "img2": "/course-Xue/img/pic/comnun2.png",
+      "img3": "/course-Xue/img/pic/comnun3.png",
+      "img4": "/course-Xue/img/pic/comnun4.png"
+    }
+  ],
+  "data2":[{
+    "title":"家庭教育",
+    "title2":"妈妈是什么？爸爸是什么？",
+    "img": "/course-Xue/img/pic/slide3.png"
+    },{
+      "title":"一起读书",
+      "title2":"一对母女在公交车的对话，你能...",
+      "img": "/course-Xue/img/pic/comnun5.png"
+      },{
+        "title":"家庭教育",
+        "title2":"妈妈是什么？爸爸是什么？",
+        "img": "/course-Xue/img/pic/comnun6.png"
+        },{
+          "title":"一起读书",
+          "title2":"一对母女在公交车的对话，你能...",
+          "img": "/course-Xue/img/pic/comnun7.png"
+          },{
+            "title":"家庭教育",
+            "title2":"妈妈是什么？爸爸是什么？",
+            "img": "/course-Xue/img/pic/slide3.png"
+            },{
+              "title":"一起读书",
+              "title2":"一对母女在公交车的对话，你能...",
+              "img": "/course-Xue/img/pic/comnun8.png"
+              },{
+                "title":"家庭教育",
+                "title2":"妈妈是什么？爸爸是什么？",
+                "img": "/course-Xue/img/pic/slide3.png"
+                },{
+                  "title":"一起读书",
+                  "title2":"一对母女在公交车的对话，你能...",
+                  "img": "/course-Xue/img/pic/comnun9.png"
+                  }]
+}
